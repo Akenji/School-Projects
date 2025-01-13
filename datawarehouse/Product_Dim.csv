@@ -1,0 +1,37 @@
+ProductID,ProductName,Category,Price (FCFA)
+1f97a51d-a0c1-432d-8728-154c843693c3,Téléphone,Electronics,77485.89
+42616d49-3bcc-44ac-ba5d-75c2d311432c,Télévision,Electronics,11360.82
+8728afbc-f3d7-4c1a-910e-a1eac623265a,Ordinateur,Electronics,283099.9
+910a2c11-eae6-4801-b4ad-43fcb104f0fe,Casque,Electronics,84024.9
+b1a087ad-fe16-423f-8d92-1492fefab0d4,Chargeur,Electronics,231238.83
+de8f44ef-d767-4969-92a1-cf2f3843c3ef,Caméra,Electronics,133490.73
+5796fc86-3405-4499-8b00-1a80b6ce8371,T-shirt,Clothing,66791.5
+9d1953e6-8422-4aab-a9de-01a50a3dfcad,Pantalon,Clothing,46070.71
+d4e39033-221e-4da1-890f-cb3910a87f07,Chaussures,Clothing,8630.51
+ca67e5c2-d2e8-4d72-9749-5ba2b84493c1,Sac à dos,Clothing,43279.79
+8923a47e-fcb9-4579-a636-859f1b5b9d57,Chemise,Clothing,16669.32
+f2c2a6bb-4310-4a22-9de2-0d52a3e41bd7,Robe,Clothing,36779.76
+9a382253-4c10-472a-9406-51eac0b60925,Riz,Food,1500.0
+cbb8cebb-e73e-4000-8550-dcf8b52bf5d2,Haricots,Food,5855.84
+0c8e339c-a4d8-4924-9127-536dd62ed80b,Huile,Food,1531.84
+7ad33bcb-8e0f-444c-ac69-29d3df1f1f8c,Pain,Food,2391.3
+4d503cae-9f94-48d6-8997-6737421ca274,Sucre,Food,7784.22
+eb2526c5-9127-4640-849c-f6285c9e3850,Lait,Food,8540.59
+cbd1c454-c9fd-41c0-bce9-fe3d21ecd78b,Table,Furniture,81343.37
+6abcf7fe-120d-4732-a58a-55b0c4b79417,Chaise,Furniture,53532.78
+114ebea6-f388-4fb1-bf47-3f9febde8870,Armoire,Furniture,20956.38
+0ea14fef-0982-43fc-af86-432d6c5b8f8d,Lit,Furniture,86563.21
+a33d0046-ac95-47be-adfe-ea346fc25f2b,Étagère,Furniture,67958.37
+f7f5b6f8-d18c-4d41-86a9-2042c2693e12,Canapé,Furniture,50207.62
+f91a4958-341d-4f24-ae0d-5361575cbb6e,Shampooing,Beauty,47726.92
+439ef360-eae7-4f4b-92d0-242af7704e8a,Savon,Beauty,9728.7
+87e22c11-5c34-4278-bac3-2eb9739bdaf1,Parfum,Beauty,45243.34
+6544a5d4-5200-4815-95a0-b1f24e2811d8,Crème,Beauty,16728.34
+f567e2c4-2f08-411a-980b-f1f6e616fc50,Rouge à lèvres,Beauty,30171.89
+5b6ce34d-0ebe-4e7a-957c-8bada6ade1b6,Déodorant,Beauty,46199.49
+8d21f41e-1b08-4a9b-a6a6-87a10aeb8ae9,Poupée,Toys,1398.93
+93c06e37-8f91-43f8-bda4-b0a40870f89f,Camion jouet,Toys,20566.24
+9e88fbd5-98b9-4bc2-ba63-0615abea62ac,Puzzle,Toys,788.83
+ac9517cb-98cb-4d73-9581-18d0540207c6,Lego,Toys,9424.98
+cc48963e-aeef-47a7-b90c-58a9becd2c24,Jeu de société,Toys,18528.92
+65f7dcd2-121b-444d-8b9f-2047196d3cb6,Ballon,Toys,12284.93

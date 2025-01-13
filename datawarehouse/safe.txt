@@ -1,0 +1,11 @@
+    SELECT 
+        s.sale_id,
+        s.customer_id,
+        s.product_id,
+        s.total_amount,
+        c.Age,
+        c.gender,
+        p.product_category,
+    FROM sales_fact s
+    JOIN customer_dim c ON s.customer_id = c.customer_id
+    JOIN product_dim p ON s.product_id = p.product_id;
