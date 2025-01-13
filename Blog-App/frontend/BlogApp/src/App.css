@@ -1,0 +1,86 @@
+:root{
+    --primary-color:black;
+    --sec-color:#CBB57A;
+    --bg-1:whitesmoke;
+    --bg-2:white;
+}
+body{
+    background-color: whitesmoke;
+}
+#root{
+    background-color: white;
+    border-radius: 25px;
+}
+.logo{
+    color: #CBB57A;
+}
+.btn-custom{
+    background-color: var(--sec-color);
+    color: var(--bg-2);
+}
+.links div:hover{
+     cursor: pointer;
+     color: var(--sec-color);
+     transform: scale(1.2);
+     transition: .5s;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+a:hover{
+    color: inherit;
+}
+#form{
+    border-radius: 15px;
+    background: linear-gradient(105deg,whitesmoke 55%,#CBB57A 0);
+}
+.user-pic{
+    background-color: var(--sec-color);
+    border-radius: 50px;
+    padding: 1.5em;
+    /* height: 2em; */
+}
+.message-box{
+    width: 80% !important;
+}
+.bg-custom{
+    background-color: var(--sec-color);
+    color: black;
+    font-weight: 500;
+}
+.bg-custom-2{
+    background-color: rgb(203, 181, 122,.3);
+    color: black;
+    font-weight: 500;
+}
+.display{
+ margin-left: .08em;
+}
+.text-display{
+    border-radius: 10px;
+    border-top-left-radius: 1px;
+}
+.text-display-self{
+    border-radius: 10px;
+    border-top-right-radius: 1px;
+}
+/* .bg-1{
+    background-color: var(--bg-1);
+}
+.bg-3{
+    background-color: var(--sec-color);
+} */
+/* .form-left{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.form-right{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+} */
+.google{
+    background-color: var(--bg-1);
+    padding: .5em;
+    border-radius: 25px;
+}
