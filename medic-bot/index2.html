@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Signup</title>
+		<link rel="stylesheet" href="styles1.css">
+		<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	</head>
+	<body>
+  		<div class="wrapper">
+			<form action="connect.php" method="post">
+				<h1>Create Account</h1>
+				<div class="input-box">
+					<input type="text" placeholder="Username" name="username" required>
+					<i class='bx bxs-user'></i>
+				</div>
+                <div class="input-box">
+					<input type="email" placeholder="User email" name="email">
+					<i class='bx bxs-envelope'></i>
+				</div>
+				<div class="input-box">
+					<input type="password" placeholder="Password" name="password" required>
+					<i class='bx bxs-lock-alt' ></i>
+				</div>
+                <div class="input-box">
+					<input type="password" placeholder="Confirm Password" name="confirm_password" required>
+					<i class='bx bxs-lock-alt' ></i>
+				</div>
+				<div class="remember-forgot">
+					<label><input type="checkbox" required>I agree to all terms and conditions</label>
+				</div>
+				<li><a href="index1.html"><button type="submit" class="btn">Create Account</button></a>
+				</li>
+				<div class="register-link">
+					<p>Already have account? <a href="index1.html">Login</a></p>
+				</div>
+			</form>
+  		</div>
+	</body>
+</html>

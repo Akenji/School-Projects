@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css" />
+    <!-- Phone Codes With Flags API -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.tutorialjinni.com/intl-tel-input/17.0.19/css/intlTelInput.css"
+    />
+    <script src="https://cdn.tutorialjinni.com/intl-tel-input/17.0.19/js/intlTelInput.min.js"></script>
+  </head>
+  <body> 
+    <div class="container">
+      <form action="/">
+        <h1>Contact Us!</h1>
+        <div class="input-box">
+          <div class="input-field field">
+            <input
+              type="text"
+              class="item"
+              id="fName"
+              placeholder="Full Name"
+              required
+            />
+            <div class="error-txt">Full Name Can't Be Blank</div>
+          </div>
+
+          <div class="input-field field">
+            <input
+              type="email"
+              id="fName"
+              class="item"
+              placeholder="Email Address"
+              required
+            />
+            <div class="error-txt">Email Address Can't Be Blank</div>
+          </div>
+        </div>
+
+        <div class="input-box">
+          <div class="input-field field phone">
+            <input
+              type="number"
+              class="item"
+              id="phone"
+              placeholder="Phone Number"
+              required
+            />
+            <div class="error-txt">Phone Number Can't Be Blank</div>
+          </div>
+
+          <div class="input-field field">
+            <input
+              type="text"
+              id="subject"
+              class="item"
+              placeholder="Subject"
+              required
+            />
+            <div class="error-txt">Subject Can't Be Blank</div>
+          </div>
+        </div>
+
+        <div class="textarea-field field">
+          <textarea
+            name=""
+            id="message"
+            class="item"
+            cols="30"
+            rows="10"
+            placeholder="Your Message Goes Here!"
+          ></textarea>
+          <div class="error-txt">Message Can't Be Blank</div>
+        </div>
+        <button type="Submit">Send Message</button>
+      </form>
+    </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+      var input = document.querySelector("#phone");
+      window.intlTelInput(input, {
+        separateDialCode: true,
+        excludeCountries: ["in", "il"],
+        preferredCountries: ["ru", "jp", "pk", "no"],
+      });
+    </script>
+    <script src="contact.js"></script>
+  </body>
+</html>

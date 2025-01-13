@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+}
+
+.container form {
+  width: 600px; 
+  text-align: center;
+}
+
+
+
+form .input-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.field .item {
+  width: 100%;
+  padding: 17px;
+  background: transparent;
+  border: 2px solid #0ef;
+  outline: none;
+  border-radius: 15px;
+  font-size: 1rem;
+  color: #ededed;
+  margin: 12px 0;
+}
+
+.field .item::placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.input-box .input-field {
+  width: 48.5%;
+}
+
+input {
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+/*!GLOW EFFECT */
+input:focus {
+  outline: none;
+  box-shadow: 0 0 10px #0ef;
+}
+
+.field .error-txt {
+  font-size: 14.5px;
+  color: #d93025;
+  text-align: left;
+  margin: -5px 0 10px;
+  display: none;
+}
+
+form .text-area-field .error-txt {
+  margin-top: -10px;
+}
+
+form .textarea-field .item {
+  resize: none;
+}
+
+form button {
+  padding: 12px 32px;
+  background: #0ef;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  box-shadow: 0 0 10px #0ef;
+  color: #333;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 20px 0 0 0;
+  transition: 0.5s;
+}
+
+form button:hover {
+  box-shadow: none;
+}
+
+.phone {
+  margin-top: 10px;
+}
+
+@media (max-width: 650px) {
+ 
+  .container form {
+    width: 300px;
+    text-align: center;
+  }
+  form .input-box {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .field .item {
+    width: 100%;
+    padding: 7px;
+    background: transparent;
+    border: 2px solid #0ef;
+    outline: none;
+    border-radius: 15px;
+    font-size: 1rem;
+    color: #ededed;
+  }
+  .input-box .input-field {
+    width: 78.5%;
+  }
+}
